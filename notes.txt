@@ -1,0 +1,9 @@
+ Server ->
+ npm init
+ npm i express cors dotenv nodemon jsonwebtoken mongoose bcryptjs nodemailer cookie-parser
+
+ Client ->
+ npm install axios react-router-dom react-toastify
+ 
+ npm install -D tailwindcss@3 postcss autoprefixer
+ npx tailwindcss init -p
