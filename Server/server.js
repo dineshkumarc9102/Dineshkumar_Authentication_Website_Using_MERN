@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 4000
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173', 'https://dineshkumar-authentication-website-using-6jfl.onrender.com']
 
 app.use(express.json());
 app.use(cookieParser());
